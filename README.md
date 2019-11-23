@@ -6,10 +6,10 @@ Fixes RDE templates created prior to `v2.7.0` to work with `v2.7+`.
 
 Prior to `v2.7.0` `colLang` was the attribute used to represent
 language selection in RDE templates. From `v2.7.0` the data model
-for languages was updated and `colLang` and `colScript` attributes
+for languages was updated and `colLanguage` and `colScript` attributes
 are used for language & script selection in RDE templates. This
 plugin deletes references to `colLang` and inserts references to
-`colLang` and `colScript`.
+`colLanguage` and `colScript`.
 
 ## To install:
 
